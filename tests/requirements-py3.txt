@@ -14,3 +14,5 @@ bpython
 brotlipy
 ipython
 pywin32; sys_platform == "win32"
+
+passlib>=1.7.3 # not directly required, pinned by Snyk to avoid a vulnerability
