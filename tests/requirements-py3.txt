@@ -14,3 +14,10 @@ bpython
 brotlipy
 ipython
 pywin32; sys_platform == "win32"
+flask>=0.12.3 # not directly required, pinned by Snyk to avoid a vulnerability
+lxml>=4.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+passlib>=1.7.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyopenssl>=17.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.20 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=5.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
